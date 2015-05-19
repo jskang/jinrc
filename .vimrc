@@ -12,6 +12,9 @@ set formatoptions-=cro
 nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 autocmd BufWritePre * :%s/\s\+$//e
 
+inoremap <expr> j pumvisible() ? "\<C-N>" : "j"
+inoremap <expr> k pumvisible() ? "\<C-P>" : "k"
+
 set filetype=on
 filetype plugin on
 filetype indent on
