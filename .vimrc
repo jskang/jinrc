@@ -7,6 +7,7 @@ set softtabstop=4
 set textwidth=79
 set autoindent
 set number
+set formatoptions-=cro
 
 nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 autocmd BufWritePre * :%s/\s\+$//e
@@ -34,3 +35,4 @@ command Q q
 noremap <leader>d "_d
 vnoremap <leader>d "_d
 vnoremap <leader>p "_dP
+
