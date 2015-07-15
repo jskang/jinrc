@@ -1,6 +1,7 @@
 #!/bin/sh
 # copy the vimrc to main
-cp .vimrc_plugin ~/.vimrc
+cp .vimrc  ~/.vimrc
+cat .vimrc_plugin >> ~/.vimrc
 
 #install Pathogen
 mkdir -p ~/.vim/autoload ~/.vim/bundle && \
