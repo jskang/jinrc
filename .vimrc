@@ -8,6 +8,7 @@ set textwidth=79
 set autoindent
 set number
 set formatoptions-=cro
+set splitright
 
 nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 autocmd BufWritePre * :%s/\s\+$//e
