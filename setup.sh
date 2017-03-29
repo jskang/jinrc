@@ -19,6 +19,8 @@ git clone https://github.com/bling/vim-airline
 git clone https://github.com/scrooloose/nerdcommenter
 git clone https://github.com/ervandew/supertab
 git clone https://github.com/tpope/vim-repeat
+git clone https://github.com/xolox/vim-easytags.git
+git clone https://github.com/xolox/vim-misc.git
 
 mkdir -p ~/.vim/after/syntax/
 git clone https://github.com/octol/vim-cpp-enhanced-highlight.git ~/.vim/after/syntax
