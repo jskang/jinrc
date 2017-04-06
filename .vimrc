@@ -32,12 +32,32 @@ autocmd FileType php set omnifunc=phpcomplete#CompletePHP
 autocmd FileType c set omnifunc=ccomplete#Complete
 
 command WQ wq
+command WQa wqa
+command Wqa wqa
 command Wq wq
 command W w
 command Q q
+cnoremap q1 q!
 
 noremap <leader>d "_d
 vnoremap <leader>d "_d
 vnoremap <leader>p "_dP
 
 let mapleader = ","
+
+execute pathogen#infect()
+
+map <C-v> :NERDTreeTabsToggle<CR>
+noremap <leader>d "_d
+let g:nerdtree_tabs_open_on_console_startup=1
+
+" syntax enable
+" set background=dark
+" let g:solarized_contrast="low"
+" let g:solarized_visibility="low"
+" let g:solarized_termcolors=128
+" colorscheme solarized
+
+let g:airline#extensions#tabline#enabled=1
+let g:tagbar_ctags_bin='/usr/local/bin/ctags'
+noremap <silent> <Leader>y :TagbarToggle<CR>
