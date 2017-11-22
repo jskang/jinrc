@@ -44,3 +44,4 @@ vnoremap <leader>d "_d
 vnoremap <leader>p "_dP
 
 let mapleader = ","
+set term=screen-256color
