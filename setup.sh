@@ -21,7 +21,6 @@ git clone https://github.com/ervandew/supertab
 git clone https://github.com/tpope/vim-repeat
 git clone https://github.com/xolox/vim-easytags.git
 git clone https://github.com/xolox/vim-misc.git
-git clone --depth=1 https://github.com/vim-syntastic/syntastic.git
 
 mkdir -p ~/.vim/after/syntax/
 git clone https://github.com/octol/vim-cpp-enhanced-highlight.git ~/.vim/after/syntax
